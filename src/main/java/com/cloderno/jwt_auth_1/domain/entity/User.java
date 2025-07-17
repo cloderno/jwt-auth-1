@@ -1,5 +1,6 @@
-package com.cloderno.jwt_auth_1;
+package com.cloderno.jwt_auth_1.domain.entity;
 
+import com.cloderno.jwt_auth_1.domain.valueobjects.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;

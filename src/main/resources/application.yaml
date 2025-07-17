@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: jwt-auth-1
+  datasource:
+    url: jdbc:h2:mem:jwt-auth-1
+    driver-class-name: org.h2.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+token:
+  signing:
+    key: rlNNlDkAM3LEiGutTWTRaULWXN+tCFjmRVQ6mRBiR4rh+GSF93pOAq14J0zpOlU5+YtSrxDy20jpi9clyOByqA9VakGSY/Soo4DcaR0UWo4=
